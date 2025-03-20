@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@nuxthub/core'
   ],
 
+  hub: {
+    ai: true
+  },
+
   css: ['~/assets/css/main.css'],
 
   future: {
