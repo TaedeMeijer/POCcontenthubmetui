@@ -8,10 +8,9 @@
       <UBadge class="p-2" label="Vet man"/>
 
       <UButton
-        label="Documentation"
-        icon="i-lucide-square-play"
-        to="https://ui3.nuxt.dev/getting-started/installation/nuxt"
-        target="_blank"
+        label="Nuxt Content test!"
+        icon="i-lucide-file-stack"
+        to="/contenttest"
       />
 
       <UButton
@@ -19,7 +18,7 @@
         color="neutral"
         variant="outline"
         icon="i-simple-icons-github"
-        to="https://github.com/nuxt/ui"
+        to="https://github.com/TaedeMeijer"
         target="_blank"
       />
     </div>
@@ -30,7 +29,7 @@
     </div>
 
     <div v-if="isLoading" class="text-center">
-      <p>AAN HET LADEN MAN JAJAJJAJ</p>
+      <p>AAN HET LADEN MAN !!</p>
     </div>
 
     <div v-if="response" class="max-w-2xl text-center" >
